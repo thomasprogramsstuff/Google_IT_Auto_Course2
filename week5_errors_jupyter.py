@@ -92,7 +92,7 @@ print(Guess(participants))
 
 def Guess(participants):
     my_participant_dict = {}
-    try:  #My added try/except code
+    try:  #My added try/except code; Returns "None" twice....not sure why.
         participants.has_key('Larry')
     except:
         print("None")
